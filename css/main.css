@@ -1211,7 +1211,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b6f1ff;
+  background: #e91812;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2760,7 +2760,7 @@ canvas#canvas {
 }
 .post-body {
   font-family: Times New Roman, cursive, Trebuchet MS, Times New Roman, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #000;
 }
 .posts-expand .post-title-link {
