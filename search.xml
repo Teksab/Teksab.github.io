@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>markdown书写格式</title>
+    <title>Markdown书写格式</title>
     <url>/2022/03/27/Markdown%E6%A0%BC%E5%BC%8F/</url>
     <content><![CDATA[<blockquote>
-<p>本文主要介绍写博客使用Typora书写Markdown格式文章时所需要的技巧！</p>
+<p>本文主要介绍写博客使用Typora书写Markdown格式文章时所需要的技巧，包括使用LaTex编辑基本数学公式！</p>
 </blockquote>
 <p><em><span id="more"></span></em></p>
 <h1 id="标题"><a class="markdownIt-Anchor" href="#标题"></a> 标题</h1>
@@ -515,7 +515,7 @@ b=\begin{bmatrix}
   </entry>
   <entry>
     <title>Java核心技术</title>
-    <url>/2022/07/30/Java%20EE/</url>
+    <url>/2022/07/15/Java%20EE/</url>
     <content><![CDATA[<p>本文主要借鉴《Java核心技术》一书，对Java知识进行详细介绍。</p>
 <p><em><span id="more"></span></em></p>
 <h1 id="java-概述"><a class="markdownIt-Anchor" href="#java-概述"></a> Java 概述</h1>
