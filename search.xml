@@ -9,11 +9,11 @@
 <p><em><span id="more"></span></em></p>
 <h1 id="标题"><a class="markdownIt-Anchor" href="#标题"></a> 标题</h1>
 <p>使用 <strong>#</strong> 号可表示 1-6 级标题，一级标题对应一个 <strong>#</strong> 号，二级标题对应两个 <strong>#</strong> 号，依此类推：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 一级标题 #           /#前后各有一个空格/</span><br><span class="line">## 二级标题 ##</span><br><span class="line">### 三级标题 ###</span><br><span class="line">……</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="params">#</span> 一级标题 <span class="params">#</span>           /<span class="params">#</span>前后各有一个空格/</span><br><span class="line"><span class="params">##</span> 二级标题 <span class="params">##</span></span><br><span class="line"><span class="params">###</span> 三级标题 <span class="params">###</span></span><br><span class="line">……</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <h2 id="二级标题"><a class="markdownIt-Anchor" href="#二级标题"></a> 二级标题</h2>
 <h1 id="字体"><a class="markdownIt-Anchor" href="#字体"></a> 字体</h1>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">*斜体*          		  <span class="comment">/*前后无空格/</span></span><br><span class="line"><span class="comment">**粗体**				  </span></span><br><span class="line"><span class="comment">***粗斜体***   	     </span></span><br><span class="line"><span class="comment">~~删除线~~  			 </span></span><br><span class="line"><span class="comment">&lt;u&gt;下划线&lt;/u&gt;           </span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">*斜体*          		  /*前后无空格/</span><br><span class="line">**粗体**				  </span><br><span class="line">***粗斜体***   	     </span><br><span class="line">~~删除线~~  			 </span><br><span class="line">&lt;u&gt;下划线&lt;/u&gt;           </span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p>​		<em>斜体</em></p>
 <p>​		<strong>粗体</strong></p>
@@ -22,14 +22,14 @@
 <p>​		<u>下划线</u></p>
 <h1 id="分隔线"><a class="markdownIt-Anchor" href="#分隔线"></a> 分隔线</h1>
 <p>一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西也可以在星号或是减号中间插入空格:</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">* * *</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">* * *</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <hr>
 <hr>
 <h1 id="列表"><a class="markdownIt-Anchor" href="#列表"></a> 列表</h1>
 <h2 id="无序列表"><a class="markdownIt-Anchor" href="#无序列表"></a> 无序列表</h2>
 <p>无序列表使用星号(<em><strong><strong>)、加号(</strong>+</strong>)或是减号(</em><em>-</em>*)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <ul>
 <li>第一项</li>
@@ -48,7 +48,7 @@
 </ul>
 <h2 id="有序列表"><a class="markdownIt-Anchor" href="#有序列表"></a> 有序列表</h2>
 <p>有序列表使用数字并加上 <strong>.</strong> 号来表示,后面也得跟一个空格，如：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span> 第一项</span><br><span class="line"><span class="number">2.</span> 第二项</span><br><span class="line"><span class="number">3.</span> 第三项</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <ol>
 <li>第一项</li>
@@ -57,7 +57,7 @@
 </ol>
 <h2 id="列表嵌套"><a class="markdownIt-Anchor" href="#列表嵌套"></a> 列表嵌套</h2>
 <p>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span> 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line"><span class="number">2.</span> 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">1. 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <ol>
 <li>第一项：
@@ -78,13 +78,13 @@
 <li>区块的使用</li>
 </ol>
 <p>区块引用是在段落开头使用 <strong>&gt;</strong> 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&gt; 这是一个区块引用</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">&gt; 这是一个区块引用</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <blockquote>
 <p><strong>这是一个区块引用</strong></p>
 </blockquote>
 <p>另外区块是可以嵌套的，一个 <strong>&gt;</strong> 符号是最外层，两个 <strong>&gt;</strong> 符号是第一层嵌套，以此类推：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <blockquote>
 <p>最外层</p>
@@ -98,7 +98,7 @@
 <ol start="2">
 <li>区块中使用列表</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; <span class="number">1.</span> 第一项</span><br><span class="line">&gt; <span class="number">2.</span> 第二项</span><br><span class="line">&gt; + 第一项</span><br><span class="line">&gt; + 第二项</span><br><span class="line">&gt; + 第三项 </span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; 1. 第一项</span><br><span class="line">&gt; 2. 第二项</span><br><span class="line">&gt; + 第一项</span><br><span class="line">&gt; + 第二项</span><br><span class="line">&gt; + 第三项 </span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <blockquote>
 <p>区块中使用列表</p>
@@ -116,7 +116,7 @@
 <li>列表中使用区块</li>
 </ol>
 <p>如果要在列表项目内放进区块，那么就需要在 <strong>&gt;</strong> 前添加四个空格的缩进。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 列表中使用区块</span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 列表中使用区块</span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <ul>
 <li>
@@ -133,7 +133,7 @@
 <ol>
 <li>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（<strong>`</strong>）：</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">`printf()` 函数</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">`printf()` 函数</span><br></pre></td></tr></table></figure>
 <p>效果如下:</p>
 <p>​	<code>printf()</code> 函数</p>
 <ol start="2">
@@ -149,13 +149,13 @@
 <ol>
 <li>链接使用方法：</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br><span class="line"></span><br><span class="line">例：Markdown学习文档来自 [菜鸟教程](https:<span class="comment">//www.runoob.com)</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br><span class="line"></span><br><span class="line">例：Markdown学习文档来自 [菜鸟教程](https://www.runoob.com)</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p>Markdown学习文档来自 <a href="https://www.runoob.com">菜鸟教程</a></p>
 <ol start="2">
 <li>可以通过变量来设置一个链接，变量赋值在文档末尾进行：</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">这个链接用 <span class="number">1</span> 作为网址变量 [Google][<span class="number">1</span>]</span><br><span class="line">这个链接用 runoob 作为网址变量 [Runoob][runoob]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [<span class="number">1</span>]: http:<span class="comment">//www.google.com/</span></span><br><span class="line">  [runoob]: http:<span class="comment">//www.runoob.com/</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [Google][1]</span><br><span class="line">这个链接用 runoob 作为网址变量 [Runoob][runoob]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [runoob]: http://www.runoob.com/</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p>这个链接用 1 作为网址变量 <a href="http://www.google.com/">Google</a><br>
 这个链接用 runoob 作为网址变量 <a href="http://www.runoob.com/">Runoob</a><br>
@@ -166,13 +166,13 @@
 </ol>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">![alt 属性文本](图片地址/网址)</span><br><span class="line"></span><br><span class="line">![alt 属性文本](图片地址/网址 <span class="string">"可选标题"</span>)</span><br></pre></td></tr></table></figure>
 <p>开头一个感叹号 （!）， 接着一个方括号，里面放上图片的替代文字接着一个普通括号，里面放上图片的地址/网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">![截图](图片地址)</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">![截图](图片地址)</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p><img src="https://teksab-blog-img.oss-cn-guangzhou.aliyuncs.com/img/Markdown%E6%A0%BC%E5%BC%8F/202209191059240.jpg" alt="Markdown图片演示1"></p>
 <ol start="2">
 <li>可以像网址那样对图片网址使用变量:</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">这个链接用 <span class="number">1</span> 作为网址变量 [RUNOOB][<span class="number">1</span>].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[<span class="number">1</span>]: http:<span class="comment">//static.runoob.com/images/runoob-logo.png</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [RUNOOB][1].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[1]: http://static.runoob.com/images/runoob-logo.png</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p>这个链接用 1 作为网址变量 <a href="http://www.google.com/">RUNOOB</a>.<br>
 然后在文档的结尾为变量赋值（网址）</p>
@@ -180,14 +180,14 @@
 <li>图片链接</li>
 </ol>
 <p>给图片增加链接，将图像的Markdown 括在方括号中，然后将图片需要链接的网址添加在圆括号中。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">[![截图](图片地址)](链接)</span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">[![截图](图片地址)](跳转链接)</span><br></pre></td></tr></table></figure>
+<p>效果如下（点击图片可跳转到其他链接）：</p>
 <p><a href="https://markdown.com.cn/basic-syntax/images.html"><img src="https://teksab-blog-img.oss-cn-guangzhou.aliyuncs.com/img/Markdown%E6%A0%BC%E5%BC%8F/202209191059555.jpg" alt="Markdown图片演示2"></a></p>
 <h1 id="表格"><a class="markdownIt-Anchor" href="#表格"></a> 表格</h1>
 <ol>
 <li>表格使用 <strong>|</strong> 来分隔不同的单元格，使用 <strong>-</strong> 来分隔表头和其他行</li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <table>
 <thead>
@@ -216,7 +216,7 @@
 </ul>
 </li>
 </ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <table>
 <thead>
@@ -241,7 +241,7 @@
 </table>
 <h1 id="转义"><a class="markdownIt-Anchor" href="#转义"></a> 转义</h1>
 <p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">{}  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ </span>  反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line"><span class="built_in">_</span>   下划线</span><br><span class="line">{}  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line"><span class="params">#</span>   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p>​	这是一个普通星号 <strong>*</strong></p>
 <p>​	这是一个普通反斜杠 <strong>\</strong></p>
@@ -250,7 +250,7 @@
 <ol>
 <li>行内公式</li>
 </ol>
-<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>Latax<span class="built_in">$</span> 行内公式 </span><br></pre></td></tr></table></figure>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>Latax<span class="built_in">$</span> 行内公式 </span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>L</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">Latax</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">L</span><span class="mord mathdefault">a</span><span class="mord mathdefault">t</span><span class="mord mathdefault">a</span><span class="mord mathdefault">x</span></span></span></span> 行内公式</p>
 <ol start="2">
@@ -516,9 +516,7 @@ b=\begin{bmatrix}
   <entry>
     <title>Java核心技术</title>
     <url>/2022/07/15/Java%20EE/</url>
-    <content><![CDATA[<p>本文主要借鉴《Java核心技术》一书，对Java知识进行详细介绍。</p>
-<p><em><span id="more"></span></em></p>
-<h1 id="java-概述"><a class="markdownIt-Anchor" href="#java-概述"></a> Java 概述</h1>
+    <content><![CDATA[<h1 id="java-概述"><a class="markdownIt-Anchor" href="#java-概述"></a> Java 概述</h1>
 <h2 id="jvm-jre和jdk的关系"><a class="markdownIt-Anchor" href="#jvm-jre和jdk的关系"></a> JVM、JRE和JDK的关系</h2>
 <ul>
 <li><strong>JVM</strong></li>
@@ -533,6 +531,7 @@ b=\begin{bmatrix}
 <li><strong>JDK</strong></li>
 </ul>
 <p>Java Development Kit是提供给Java开发人员使用的，其中包含了Java的开发工具，也包括了JRE。所以安装了JDK，就无需再单独安装JRE了。其中的开发工具：编译工具(javac.exe)，打包工具(jar.exe)等</p>
+<p><em><span id="more"></span></em></p>
 <ul>
 <li><strong>JVM&amp;JRE&amp;JDK关系图</strong></li>
 </ul>
@@ -2065,7 +2064,7 @@ b=\begin{bmatrix}
 <h3 id="可运行状态"><a class="markdownIt-Anchor" href="#可运行状态"></a> 可运行状态</h3>
 <p>一旦调用 <code>start</code> 方法，线程处于 runable 状态。一个可运行的线程可能正在运行也可能没有运行，这取决于操作系统给线程提供的运行时间（一个正在运行的线程仍然处于可运行状态）</p>
 <h3 id="被阻塞线程和等待线程"><a class="markdownIt-Anchor" href="#被阻塞线程和等待线程"></a> 被阻塞线程和等待线程</h3>
-<p>等待更新……</p>
+<p>还在更新中……</p>
 ]]></content>
       <categories>
         <category>Java</category>
